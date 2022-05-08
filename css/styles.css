@@ -1,0 +1,29 @@
+.titletext {
+    /*Text for the title.*/
+    color: black;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS';
+  }
+
+.h2text {
+    /*Text for the subtitle.*/
+    color: gray;
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.h3text {
+    /*Text for the version number, and no text gap.*/
+    padding: 0%;
+    margin: 0%;
+  }
+
+.datetext {
+    /*Text for the date, and no text gap.*/
+    color: gray;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    margin: 0%;
+}
