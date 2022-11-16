@@ -15,6 +15,7 @@
 
 .h3text {
     /*Text for the version number, and no text gap.*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0%;
     margin: 0%;
   }
@@ -31,8 +32,6 @@
 .paragraph {
     /*Text for the paragraph*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0%;
-    margin: 0%;
 }
 
 .link {
