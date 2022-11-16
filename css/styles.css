@@ -43,3 +43,24 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:darkgoldenrod;
 }
+
+
+/*embed scale css*/
+.auto-resizable-iframe {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 55%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
