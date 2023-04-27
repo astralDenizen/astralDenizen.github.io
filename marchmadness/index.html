@@ -8,7 +8,7 @@
     <a class="link" href="../">Back</a>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <img src="banner.png" alt="Banner" style="width:100%;">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #999180"></canvas>
+    <canvas id="unity-canvas" width=960 height=600 style="width: 1280x; height: 720px; background: #999180"></canvas>
     <script src="Build/BetaBuild.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -34,7 +34,7 @@
         companyName: "Arcsoft",
         productName: "marchmadness gun",
         productVersion: "1.0",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        matchWebGLToCanvasSize: true, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
